@@ -1,0 +1,57 @@
+# --- General Settings ---
+[general]
+# MUST be under [general] in v0.16+ to avoid "Unused config key"
+working_directory = "C:\\Users\\JMatlou"
+
+# --- Window Settings ---
+[window]
+opacity = 0.95
+blur = true
+padding = { x = 12, y = 12 }
+title = "Alacritty"
+
+# --- Default Shell (Git Bash) ---
+[terminal.shell]
+# This MUST be terminal.shell to avoid the deprecation warning
+program = "C:\\Program Files\\Git\\bin\\sh.exe"
+args = ["--login", "-i"]
+
+# --- Atom One Dark Color Scheme ---
+[colors.primary]
+background = "#282c34"
+foreground = "#abb2bf"
+
+[colors.cursor]
+text = "#282c34"
+cursor = "#528bff"
+
+[colors.normal]
+black   = "#282c34"
+red     = "#e06c75"
+green   = "#98c379"
+yellow  = "#e5c07b"
+blue    = "#61afef"
+magenta = "#c678dd"
+cyan    = "#56b6c2"
+white   = "#abb2bf"
+
+[colors.bright]
+black   = "#5c6370"
+red     = "#e06c75"
+green   = "#98c379"
+yellow  = "#e5c07b"
+blue    = "#61afef"
+magenta = "#c678dd"
+cyan    = "#56b6c2"
+white   = "#ffffff"
+
+# --- Font Settings ---
+[font]
+size = 11.0
+
+[font.normal]
+family = "Consolas"
+style = "Regular"
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
